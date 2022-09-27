@@ -6,12 +6,7 @@ theme = "liva-hugo"
 summaryLength = "10"
 paginate = 6
 disqusShortname = ""
-[languages.zh]
-  languageCode = "zh-cn"
-[languages.en]
-  languageCode = "en-us"
 defaultContentLanguage = "zh"
-defaultContentLanguageInSubdir = true
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 
@@ -49,66 +44,34 @@ URL = "plugins/search/search.js"
 [menu]
 
 # main menu
-[[languages.zh.menu.main]]
+[[menu.main]]
   name = "关于"
   url = "about/"
   weight = 1
-[[menu.main]]
-name = "About"
-URL = "about/"
-weight = 1
 
-[[languages.zh.menu.main]]
+[[menu.main]]
   name = "帖子"
   url = "blog/"
   weight = 2
-[[menu.main]]
-name = "Post"
-URL = "blog/"
-weight = 2
 
-[[languages.zh.menu.main]]
+
+[[menu.main]]
   name = "联系"
   url = "contact/"
   weight = 3
-[[menu.main]]
-name = "Contact"
-URL = "contact/"
-weight = 3
-
-[[languages.zh.menu.main]]
-  name = "EN"
-  url = "../en"
-  weight = 4
-[[menu.main]]
-  name = "中文"
-  url = "../zh"
-  weight = 4
 
 # footer menu
 [[menu.footer]]
-name = "About"
-URL = "about/"
-weight = 1
-[[languages.zh.menu.footer]]
   name = "关于"
   url = "about/"
   weight = 1
 
 [[menu.footer]]
-name = "Post"
-URL = "blog/"
-weight = 2
-[[languages.zh.menu.footer]]
   name = "帖子"
   url = "blog/"
   weight = 2
 
 [[menu.footer]]
-name = "Contact"
-URL = "contact/"
-weight = 3
-[[languages.zh.menu.footer]]
   name = "联系"
   url = "contact/"
   weight = 3
