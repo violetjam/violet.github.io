@@ -113,9 +113,18 @@
 </section>
 <!-- /blog post -->
 <style>
-  .card-img-h{
-    height: 370px;
-    overflow: hidden;
-  }
+  @media screen and (min-width: 744px) {
+      .card-img-h{
+        height: 370px;
+        overflow: hidden;
+      }
+    }
+    @media screen and (max-width: 743px) {
+      .card-img-h{
+        height: auto;
+        overflow: auto;
+      }
+    }
+
 </style>
 {{ end }}
