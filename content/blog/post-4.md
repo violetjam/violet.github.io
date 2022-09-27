@@ -11,10 +11,10 @@ description: "this is meta description"
 
 # taxonomies
 categories: 
-  - "Go Language"
+  - "设计"
 tags:
-  - "Photos"
-  - "Game"
+  - "交互"
+  - "UX"
   - "HTML"
   - "Python"
   - "New"

@@ -11,9 +11,9 @@ description: "this is meta description"
 
 # taxonomies
 categories: 
-  - "Go Language"
+  - "生活"
 tags:
-  - "Photos"
+  - "生活"
   - "Game"
   - "HTML"
   - "Python"

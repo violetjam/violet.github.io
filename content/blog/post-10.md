@@ -11,11 +11,11 @@ description: "this is meta description"
 
 # taxonomies
 categories: 
-  - "Go Language"
+  - "前端"
 tags:
-  - "Photos"
-  - "Game"
-  - "HTML"
+  - "Vue"
+  - "状态管理"
+  - "Vuex"
   - "Python"
   - "New"
 

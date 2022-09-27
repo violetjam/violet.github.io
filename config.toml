@@ -2,7 +2,7 @@
 # baseURL = "https://violetjam.github.io/blog/"
 # baseURL = "/blog"
 
-title = "Liva | Personal blog template"
+title = "Violet | Personal blog "
 theme = "liva-hugo"
 summaryLength = "10"
 paginate = 6
@@ -84,13 +84,13 @@ logo = "images/logo.png"
 home = "Home"
 # Meta data
 description = "This is meta description"
-author = "Themefisher"
+author = "violet"
 # Google Analitycs
-googleAnalitycsID = "Your ID"
+googleAnalitycsID = "violetswanjam"
 # Contact Information
-mobile = "0124857985320"
-email = "demo@email.com"
-location = "Dhaka, Bangladedsh"
+mobile = "19857152269"
+email = "shuping_tang@qq.com"
+location = "浙江 杭州"
 # copyright
 copyright = "| copyright &copy; 2022 [Violetjam](https://violetjam.github.io/blog/) All Rights Reserved |"
 
