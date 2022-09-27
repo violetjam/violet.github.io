@@ -11,7 +11,7 @@
           <div class="row no-gutters align-items-center">
             <div class="col-md-5">
               {{ if .Params.Image }}
-              <img src="{{ .Params.Image | absURL }}" class="card-img card-h" alt="{{ .Title | markdownify }}">
+              <img src="{{ .Params.Image | absURL }}" class="card-img" alt="{{ .Title | markdownify }}">
               {{ end }}
             </div>
             <div class="col-md-6 offset-md-1">
@@ -112,9 +112,5 @@
   </div>
 </section>
 <!-- /blog post -->
-<style>
-  .card-h{
-    height: 380px;
-  }
-</style>
+
 {{ end }}
