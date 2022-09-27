@@ -1,5 +1,6 @@
 ######################## default configuration ####################
-baseURL = "/"
+# baseURL = "https://violetjam.github.io/blog/"
+# baseURL = "/blog"
 
 title = "Liva | Personal blog template"
 theme = "liva-hugo"
