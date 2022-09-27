@@ -9,9 +9,9 @@
         {{ range ( where .Site.RegularPages "Type" "featured" )}}
         <article class="card featured-post">
           <div class="row no-gutters align-items-center">
-            <div class="col-md-5">
+            <div class="col-md-5 card-img-h">
               {{ if .Params.Image }}
-              <img src="{{ .Params.Image | absURL }}" class="card-img" alt="{{ .Title | markdownify }}">
+              <img src="{{ .Params.Image | absURL }}" class="card-img " alt="{{ .Title | markdownify }}">
               {{ end }}
             </div>
             <div class="col-md-6 offset-md-1">
@@ -112,5 +112,10 @@
   </div>
 </section>
 <!-- /blog post -->
-
+<style>
+  .card-img-h{
+    height: 370px;
+    overflow: hidden;
+  }
+</style>
 {{ end }}
