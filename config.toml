@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "/"
+baseURL = "/blog"
 
 title = "Liva | Personal blog template"
 theme = "liva-hugo"
