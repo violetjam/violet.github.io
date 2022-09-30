@@ -1,5 +1,9 @@
 /*  typography */
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700&display=swap');
+@import url('https://fonts.loli.net/css?family=Raleway:300,400,500,600,700&display=swap');
+
+// 原来是 https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700&display=swap
+// 谷歌字体太慢了，加速一下，参考 https://blog.csdn.net/star8521/article/details/123463702
+// 这篇加速更好：https://u.sb/css-cdn/
 
 body {
   line-height: 1.4;
