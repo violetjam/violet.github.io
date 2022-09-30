@@ -48,7 +48,9 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 pdf in same dir:
 
-<!-- {{< embed-pdf url="/blog/post-test/mlops.pdf">}} -->
+{{< embed-pdf url="./mlops.pdf">}}
+
+[//]: # ({{< embed-pdf url="/blog/post-test/mlops.pdf">}})
 
 pdf in static dir:
 
