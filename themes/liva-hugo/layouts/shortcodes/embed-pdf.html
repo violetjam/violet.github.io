@@ -2,7 +2,7 @@
 <!--<script src= '/js/pdf-js/build/pdf.js'></script>-->
 <style>
 #the-canvas {
-  border: 1px solid black;
+  border: 1px solid #9878dc;
   direction: ltr;
   width: 100%;
   height: auto;
@@ -11,7 +11,8 @@
 
 #paginator {
   display: none;
-  text-align: center;
+  text-align: left;
+  align-items: center;
   margin-bottom: 10px;
 }
 
@@ -43,10 +44,10 @@
 </style>
 
 <div id="paginator">
-    <button id="prev">Previous</button>
-    <button id="next">Next</button>
+    <button id="prev" class="btn btn-outline-primary" style="margin-bottom: 0px">prev</button>    
+    <button id="next" class="btn btn-outline-primary" style="margin-bottom: 0px">next</button>
     &nbsp; &nbsp;
-    <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
+    <span>page: <span id="page_num"></span> / <span id="page_count"></span></span>
 </div>
 <div id="embed-pdf-container">
     <div id="loadingWrapper">

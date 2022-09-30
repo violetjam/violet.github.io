@@ -46,15 +46,17 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 #### Test PDF
 
-pdf in same dir:
+<!-- pdf in same dir: -->
 
-{{< embed-pdf url="./mlops.pdf">}}
+<!-- github -->
+{{< embed-pdf url="./fast-food.pdf">}}
 
-[//]: # ({{< embed-pdf url="/blog/post-test/mlops.pdf">}})
+<!-- local -->
+<!-- {{< embed-pdf url="/blog/post-test/fast-food.pdf">}} -->
 
-pdf in static dir:
+<!-- pdf in static dir: -->
 
-{{< embed-pdf url="/pdf/mlops.pdf" >}}
+<!-- {{< embed-pdf url="/pdf/mlops.pdf" >}} -->
 
 
 ##### Link
