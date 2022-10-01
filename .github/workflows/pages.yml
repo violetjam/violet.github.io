@@ -58,9 +58,8 @@ jobs:
   # Deployment job
   deploy:
     environment:
-      name: github-pages
-      # url: ${{ steps.deployment.outputs.page_url }}
-      url: "https://violetjam.github.io/"
+      name: github-pages2
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
     steps:
