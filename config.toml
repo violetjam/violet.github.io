@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-# baseURL = "https://violetjam.github.io/blog/"
+# baseURL = "https://violetjam.github.io/post/"
 # baseURL = "/blog"
 baseURL = "/"
 
@@ -53,7 +53,7 @@ URL = "plugins/search/search.js"
 
 [[menu.main]]
   name = "帖子"
-  url = "blog/"
+  url = "post/"
   weight = 2
 
 
@@ -70,7 +70,7 @@ URL = "plugins/search/search.js"
 
 [[menu.footer]]
   name = "帖子"
-  url = "blog/"
+  url = "post/"
   weight = 2
 
 [[menu.footer]]
@@ -93,7 +93,7 @@ mobile = "暂不公开"
 email = "shuping_tang@qq.com"
 location = "浙江 杭州"
 # copyright
-copyright = "| copyright &copy; 2022 [Violetjam](https://violetjam.github.io/blog/) All Rights Reserved |"
+copyright = "| copyright &copy; 2022 [Violetjam](https://violetjam.github.io) All Rights Reserved |"
 
 # Preloader
 [params.preloader]
