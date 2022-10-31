@@ -19,7 +19,7 @@ tags:
 # post type
 type: "featured"
 ---
-![image](作品集-面面.png)
+![image](作品集.png)
 <!-- pdf in same dir: -->
 
 <!-- github -->
