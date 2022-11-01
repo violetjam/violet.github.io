@@ -6,7 +6,8 @@
     <div class="row justify-content-center">
       <div class="col-10 featured-post-slider">
         <!-- slider item -->
-        {{ range ( where .Site.RegularPages "Type" "featured" )}}
+        {{ $sliceOfTypes := slice "featured"}}
+        {{ range ( where .Site.RegularPages "Params.place" "intersect" ($sliceOfTypes) )}}
         <article class="card featured-post">
           <div class="row no-gutters align-items-center">
             <div class="col-md-5 card-img-h">
@@ -41,7 +42,8 @@
 <section>
   <div class="container">
     <div class="row">
-      {{ range first 3 (where .Site.RegularPages "Type" "post")}}
+      {{ $sliceOfTypes := slice "recent" "top"}}
+      {{ range first 3 (where .Site.RegularPages "Params.place" "intersect" ($sliceOfTypes))}}
       <div class="col-lg-4 small-post-border">
         <article class="media">
           {{ if .Params.Image }}
@@ -72,7 +74,8 @@
     <div class="row">
       <div class="col-lg-8 mb-5 mb-lg-0">
         <div class="row">
-          {{ $paginator := .Paginate (where .Site.RegularPages "Type" "post") }}
+          {{ $sliceOfTypes := slice "post"}}
+          {{ $paginator := .Paginate (where .Site.RegularPages "Params.place" "intersect" ($sliceOfTypes)) }}
           {{ range $paginator.Pages }}
           <div class="col-md-6 mb-4">
             <article class="card">

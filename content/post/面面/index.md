@@ -18,6 +18,11 @@ tags:
 
 # post type
 type: "featured"
+
+place:
+- "featured"
+- "recent"
+- "post"
 ---
 ![image](作品集.png)
 <!-- pdf in same dir: -->
