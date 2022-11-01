@@ -48,8 +48,8 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 <!-- pdf in same dir: -->
 
-<!-- github -->
-{{< embed-pdf url="./fast-food.pdf">}}
+<!-- 当前有用的 -->
+<!-- {{< embed-pdf url="./fast-food.pdf">}} -->
 
 <!-- local -->
 <!-- {{< embed-pdf url="/post/post-test/fast-food.pdf">}} -->
