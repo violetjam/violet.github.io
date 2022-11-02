@@ -31,7 +31,7 @@ place:
 <!-- {{< embed-pdf url="./fast-food.pdf">}} -->
 
 <!-- local -->
-<!-- {{< embed-pdf url="/post/面面/作品集-面面-汤淑萍.pdf">}} -->
+<!-- {{< embed-pdf url="/posts/面面/作品集-面面-汤淑萍.pdf">}} -->
 
 <!-- pdf in static dir: -->
 

@@ -4,23 +4,26 @@ date: 2019-10-29T10:07:47+06:00
 draft: false
 
 # post thumb
-image: "images/post/post-1.jpg"
+image: "images/featured-post/post-2.jpg"
 
 # meta description
 description: "this is meta description"
 
 # taxonomies
 categories: 
-  - "前端"
+  - "HTML & CSS"
 tags:
-  - "Vue"
-  - "状态管理"
-  - "Vuex"
+  - "Photos"
+  - "Game"
+  - "React"
   - "Python"
   - "New"
 
 # post type
-type: "post"
+type: "recent"
+place:
+- "featured"
+- "post"
 ---
 
 # Heading 1
@@ -82,6 +85,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime 
 3. List item
 4. List item
 5. List item
+
 
 ##### Unordered List
 
@@ -158,7 +162,7 @@ Markdown | Less | Pretty
 
 ##### Image
 
-![image](../../images/post/post-1.jpg)
+![image](../../images/posts/post-1.jpg)
 
 <hr>
 

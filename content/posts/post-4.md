@@ -4,17 +4,17 @@ date: 2019-10-29T10:07:47+06:00
 draft: false
 
 # post thumb
-image: "images/post/post-3.jpg"
+image: "images/posts/post-1.jpg"
 
 # meta description
 description: "this is meta description"
 
 # taxonomies
 categories: 
-  - "生活"
+  - "设计"
 tags:
-  - "生活"
-  - "Game"
+  - "交互"
+  - "UX"
   - "HTML"
   - "Python"
   - "New"
@@ -83,6 +83,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime 
 4. List item
 5. List item
 
+
 ##### Unordered List
 
 * List item
@@ -90,7 +91,6 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime 
 * List item
 * List item
 * List item
-
 <hr>
 
 ##### Code and Syntax Highlighting
@@ -158,7 +158,7 @@ Markdown | Less | Pretty
 
 ##### Image
 
-![image](../../images/post/post-1.jpg)
+![image](../../images/posts/post-1.jpg)
 
 <hr>
 
